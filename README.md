@@ -1,4 +1,4 @@
-<img src="./github-header-image.png" alt="name banner" />
+<img src="./banner.jpeg" alt="name banner" />
 
 ### About Me
 
