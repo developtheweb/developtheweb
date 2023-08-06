@@ -10,7 +10,7 @@
 <a href="[https://www.linkedin.com/in/jchiu86](https://www.linkedin.com/in/stevenmilanese/)">
 <img src="https://img.shields.io/badge/visit%20my%20Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" />
 </a>
-<a href="https://quantumquark.medium.com/">
+<a href="https://stevenmilanese.com/#articles">
 <img src="https://img.shields.io/badge/read%20my%20blogs%20on%20StevenMilanese.com-black?style=for-the-badge&logo=medium&logoColor=white" alt="medium" />
 </a>
 <a href="mailto:dev@level.host">
