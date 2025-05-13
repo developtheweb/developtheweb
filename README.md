@@ -2,7 +2,7 @@
   <img src="https://github.com/developtheweb/stevenmilanese-com/blob/main/public/StevenMilanese-full-logo.png" alt="Steven Milanese" width="400"/>
   
   # Steven Milanese
-  ### Systems Alchemist | Physicist | Developer | Reverend
+  ### Autodidactic Polymath | Physicist | Systems Alchemist | Reverend
 
   [![Website](https://img.shields.io/badge/Website-stevenmilanese.com-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white)](https://stevenmilanese.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevenmilanese/)
