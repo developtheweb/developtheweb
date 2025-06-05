@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/developtheweb/stevenmilanese-com/blob/main/public/StevenMilanese-full-logo.png" alt="Steven Milanese" width="400"/>
+  <img src="https://stevenmilanese.com/StevenMilanese-full-logo.png" alt="Steven Milanese" width="400"/>
   
   # Steven Milanese
   ### Autodidactic Polymath | Physicist | Systems Alchemist | Reverend
@@ -15,7 +15,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/developtheweb/stevenmilanese-com/blob/main/public/StevenMilanese-hero-stars.webp" alt="Hero Banner" width="100%"/>
+  <img src="https://stevenmilanese.com/StevenMilanese-hero-stars.webp" alt="Hero Banner" width="100%"/>
 </div>
 
 ## About Me
@@ -55,7 +55,7 @@ With a holistic approach to problem-solving, I bridge technical excellence with 
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="48" height="48" alt="Tailwind" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="48" height="48" alt="Tailwind" />
       <br>Tailwind
     </td>
     <td align="center" width="96">
@@ -71,7 +71,7 @@ With a holistic approach to problem-solving, I bridge technical excellence with 
       <br>PostgreSQL
     </td>
     <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" width="48" height="48" alt="AWS" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="48" height="48" alt="AWS" />
       <br>AWS
     </td>
     <td align="center" width="96">
@@ -91,7 +91,7 @@ With a holistic approach to problem-solving, I bridge technical excellence with 
         <br>
         <div align="center">
           <a href="https://stevenmilanese.com">
-            <img src="https://github.com/developtheweb/stevenmilanese-com/blob/main/public/projects/calabi-yau.webp" width="280" alt="Portfolio"/>
+            <img src="https://stevenmilanese.com/projects/calabi-yau.webp" width="280" alt="Portfolio"/>
           </a>
         </div>
       </td>
@@ -100,7 +100,7 @@ With a holistic approach to problem-solving, I bridge technical excellence with 
         <br>
         <div align="center">
           <a href="https://stevenmilanese.com/#projects">
-            <img src="https://github.com/developtheweb/stevenmilanese-com/blob/main/public/projects/emergence-intelligence.webp" width="280" alt="Emergence Intelligence"/>
+            <img src="https://stevenmilanese.com/projects/emergence-intelligence.webp" width="280" alt="Emergence Intelligence"/>
           </a>
         </div>
       </td>
@@ -160,7 +160,7 @@ With a holistic approach to problem-solving, I bridge technical excellence with 
 ---
 
 <div align="center">
-  <img src="https://github.com/developtheweb/stevenmilanese-com/blob/main/public/StevenMilanese-ghost-logo.png" alt="Steven Milanese Logo" width="80"/>
+  <img src="https://stevenmilanese.com/StevenMilanese-ghost-logo.png" alt="Steven Milanese Logo" width="80"/>
   <br>
   <small>Systems Alchemist | Transforming Complexity into Elegance</small>
 </div>
