@@ -103,7 +103,7 @@ I transform complex challenges into inspired technological solutions. By seamles
           <p><strong>Immersive Portfolio Experience</strong></p>
           <p>Three.js visualizations • Server-side rendering • Headless CMS</p>
           <p>
-            [![Visit Live Site](https://img.shields.io/badge/Visit-Live_Site-06B6D4?style=for-the-badge&logo=vercel&logoColor=white)](https://stevenmilanese.com)
+            <a href="https://stevenmilanese.com" target="_blank"><img src="https://img.shields.io/badge/Visit-Live_Site-06B6D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Live Site"/></a>
           </p>
         </div>
       </td>
@@ -115,7 +115,7 @@ I transform complex challenges into inspired technological solutions. By seamles
           <p><strong>Advanced AI System</strong></p>
           <p>Cognitive architecture • Semantic processing • Episodic memory</p>
           <p>
-            [![Learn More](https://img.shields.io/badge/Learn-More-14B8A6?style=for-the-badge&logo=openai&logoColor=white)](https://stevenmilanese.com/#projects)
+            <a href="https://stevenmilanese.com/#projects" target="_blank"><img src="https://img.shields.io/badge/Learn-More-14B8A6?style=for-the-badge&logo=openai&logoColor=white" alt="Learn More"/></a>
           </p>
         </div>
       </td>
