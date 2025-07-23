@@ -98,7 +98,7 @@ I transform complex challenges into inspired technological solutions. By seamles
       <td width="50%">
         <h3 align="center">stevenmilanese.com</h3>
         <div align="center">
-          [![Portfolio](https://stevenmilanese.com/projects/calabi-yau.webp)](https://stevenmilanese.com)
+          <a href="https://stevenmilanese.com" target="_blank"><img src="https://stevenmilanese.com/projects/calabi-yau.webp" width="100%" alt="Portfolio"/></a>
           <br><br>
           <p><strong>Immersive Portfolio Experience</strong></p>
           <p>Three.js visualizations • Server-side rendering • Headless CMS</p>
@@ -110,7 +110,7 @@ I transform complex challenges into inspired technological solutions. By seamles
       <td width="50%">
         <h3 align="center">Emergence Intelligence</h3>
         <div align="center">
-          [![Emergence Intelligence](https://stevenmilanese.com/projects/emergence-intelligence.webp)](https://stevenmilanese.com/#projects)
+          <a href="https://stevenmilanese.com/#projects" target="_blank"><img src="https://stevenmilanese.com/projects/emergence-intelligence.webp" width="100%" alt="Emergence Intelligence"/></a>
           <br><br>
           <p><strong>Advanced AI System</strong></p>
           <p>Cognitive architecture • Semantic processing • Episodic memory</p>
@@ -159,6 +159,7 @@ graph LR
   <img src="https://img.shields.io/badge/Architecture-Systems_Design-95E1D3?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Leadership-Technical_Strategy-F38181?style=for-the-badge"/>
 </div>
+
 
 ## 💫 Connect & Collaborate
 
