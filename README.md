@@ -7,9 +7,7 @@
   <img src="https://stevenmilanese.com/StevenMilanese-full-logo.png" alt="Steven Milanese" width="400"/>
   
   <!-- Animated Typing Header -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=06B6D4&center=true&vCenter=true&width=600&lines=Steven+Milanese;Autodidactic+Polymath;Systems+Alchemist;Physicist+%26+Reverend" alt="Typing SVG" />
-  </a>
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=06B6D4&center=true&vCenter=true&width=600&lines=Steven+Milanese;Autodidactic+Polymath;Systems+Alchemist;Physicist+%26+Reverend)](https://git.io/typing-svg)
   
   <!-- Profile Views Counter -->
   <br>
@@ -17,32 +15,16 @@
   
   <!-- Social Badges with Custom Colors -->
   <br><br>
-  <a href="https://stevenmilanese.com">
-    <img src="https://img.shields.io/badge/Website-stevenmilanese.com-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=374151&color=06B6D4" alt="Website"/>
-  </a>
-  <a href="https://www.linkedin.com/in/stevenmilanese/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=084C91&color=0A66C2" alt="LinkedIn"/>
-  </a>
-  <a href="https://stevenmilanese.com/strange-quarks">
-    <img src="https://img.shields.io/badge/Blog-Strange_Quarks-14B8A6?style=for-the-badge&logo=hashnode&logoColor=white&labelColor=047857&color=14B8A6" alt="Blog"/>
-  </a>
+  [![Website](https://img.shields.io/badge/Website-stevenmilanese.com-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=374151&color=06B6D4)](https://stevenmilanese.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=084C91&color=0A66C2)](https://www.linkedin.com/in/stevenmilanese/)
+  [![Blog](https://img.shields.io/badge/Blog-Strange_Quarks-14B8A6?style=for-the-badge&logo=hashnode&logoColor=white&labelColor=047857&color=14B8A6)](https://stevenmilanese.com/strange-quarks)
   <br>
-  <a href="https://x.com/developtheweb">
-    <img src="https://img.shields.io/badge/X-@developtheweb-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=171717&color=000000" alt="X"/>
-  </a>
-  <a href="https://t.me/CodeAndVerse">
-    <img src="https://img.shields.io/badge/Telegram-@CodeAndVerse-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0088CC&color=26A5E4" alt="Telegram"/>
-  </a>
-  <a href="mailto:dev@level.host">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=C23B2C&color=EA4335" alt="Email"/>
-  </a>
+  [![X](https://img.shields.io/badge/X-@developtheweb-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=171717&color=000000)](https://x.com/developtheweb)
+  [![Telegram](https://img.shields.io/badge/Telegram-@CodeAndVerse-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0088CC&color=26A5E4)](https://t.me/CodeAndVerse)
+  [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=C23B2C&color=EA4335)](mailto:dev@level.host)
   <br>
-  <a href="https://orcid.org/0009-0008-0442-208X">
-    <img src="https://img.shields.io/badge/ORCID-Research_Profile-A6CE39?style=for-the-badge&logo=orcid&logoColor=white&labelColor=87A330&color=A6CE39" alt="ORCID"/>
-  </a>
-  <a href="https://osf.io/3tsd4/">
-    <img src="https://img.shields.io/badge/OSF-Open_Science-2077B4?style=for-the-badge&logo=osf&logoColor=white&labelColor=1A5F8F&color=2077B4" alt="OSF"/>
-  </a>
+  [![ORCID](https://img.shields.io/badge/ORCID-Research_Profile-A6CE39?style=for-the-badge&logo=orcid&logoColor=white&labelColor=87A330&color=A6CE39)](https://orcid.org/0009-0008-0442-208X)
+  [![OSF](https://img.shields.io/badge/OSF-Open_Science-2077B4?style=for-the-badge&logo=osf&logoColor=white&labelColor=1A5F8F&color=2077B4)](https://osf.io/3tsd4/)
 </div>
 
 <!-- Animated Banner -->
@@ -116,32 +98,24 @@ I transform complex challenges into inspired technological solutions. By seamles
       <td width="50%">
         <h3 align="center">stevenmilanese.com</h3>
         <div align="center">
-          <a href="https://stevenmilanese.com" target="_blank">
-            <img src="https://stevenmilanese.com/projects/calabi-yau.webp" width="100%" alt="Portfolio"/>
-          </a>
+          [![Portfolio](https://stevenmilanese.com/projects/calabi-yau.webp)](https://stevenmilanese.com)
           <br><br>
           <p><strong>Immersive Portfolio Experience</strong></p>
           <p>Three.js visualizations • Server-side rendering • Headless CMS</p>
           <p>
-            <a href="https://stevenmilanese.com" target="_blank">
-              <img src="https://img.shields.io/badge/Visit-Live_Site-06B6D4?style=for-the-badge&logo=vercel&logoColor=white"/>
-            </a>
+            [![Visit Live Site](https://img.shields.io/badge/Visit-Live_Site-06B6D4?style=for-the-badge&logo=vercel&logoColor=white)](https://stevenmilanese.com)
           </p>
         </div>
       </td>
       <td width="50%">
         <h3 align="center">Emergence Intelligence</h3>
         <div align="center">
-          <a href="https://stevenmilanese.com/#projects" target="_blank">
-            <img src="https://stevenmilanese.com/projects/emergence-intelligence.webp" width="100%" alt="Emergence Intelligence"/>
-          </a>
+          [![Emergence Intelligence](https://stevenmilanese.com/projects/emergence-intelligence.webp)](https://stevenmilanese.com/#projects)
           <br><br>
           <p><strong>Advanced AI System</strong></p>
           <p>Cognitive architecture • Semantic processing • Episodic memory</p>
           <p>
-            <a href="https://stevenmilanese.com/#projects" target="_blank">
-              <img src="https://img.shields.io/badge/Learn-More-14B8A6?style=for-the-badge&logo=openai&logoColor=white"/>
-            </a>
+            [![Learn More](https://img.shields.io/badge/Learn-More-14B8A6?style=for-the-badge&logo=openai&logoColor=white)](https://stevenmilanese.com/#projects)
           </p>
         </div>
       </td>
@@ -193,24 +167,20 @@ graph LR
   
   <br><br>
   
-  <a href="https://stevenmilanese.com">
-    <img src="https://img.shields.io/badge/🌐_Website-stevenmilanese.com-06B6D4?style=for-the-badge"/>
-  </a>
-  <a href="https://www.linkedin.com/in/stevenmilanese/">
-    <img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge"/>
-  </a>
-  <a href="mailto:dev@level.host">
-    <img src="https://img.shields.io/badge/📧_Email-Contact-EA4335?style=for-the-badge"/>
-  </a>
-  <a href="https://stevenmilanese.com/strange-quarks">
-    <img src="https://img.shields.io/badge/📝_Blog-Read-14B8A6?style=for-the-badge"/>
-  </a>
+  [![🌐 Website](https://img.shields.io/badge/🌐_Website-stevenmilanese.com-06B6D4?style=for-the-badge)](https://stevenmilanese.com)
+  [![💼 LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/stevenmilanese/)
+  [![📧 Email](https://img.shields.io/badge/📧_Email-Contact-EA4335?style=for-the-badge)](mailto:dev@level.host)
+  [![📝 Blog](https://img.shields.io/badge/📝_Blog-Read-14B8A6?style=for-the-badge)](https://stevenmilanese.com/strange-quarks)
 </div>
 
 <!-- Snake Animation -->
 <div align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/developtheweb/developtheweb/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/developtheweb/developtheweb/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/developtheweb/developtheweb/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 ---
