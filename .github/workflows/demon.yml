@@ -1,0 +1,62 @@
+name: Maxwell's Demon
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: demon-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sort:
+    if: "startsWith(github.event.issue.title, 'demon: sort 12 bits')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sort 12 bits into the lattice
+        run: |
+          python3 - <<'EOF'
+          import datetime
+          import json
+
+          path = "state/demon.json"
+          with open(path) as fh:
+              state = json.load(fh)
+          state["bits_sorted"] += 12
+          state["generation"] += 1
+          state["demons"] += 1
+          state["last_sorted_at"] = datetime.datetime.now(
+              datetime.timezone.utc
+          ).isoformat(timespec="seconds")
+          with open(path, "w") as fh:
+              json.dump(state, fh, indent=2)
+              fh.write("\n")
+          EOF
+          python3 engine/generate_entropy_svg.py
+
+      - name: Commit lowered entropy
+        env:
+          AUTHOR: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898470+github-actions[bot]@users.noreply.github.com"
+          git add state/demon.json assets/entropy.svg
+          git commit -m "chore: demon sorted 12 bits (S lowered by @${AUTHOR})"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
+
+      - name: Thank the demon and close the gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body \
+            "12 bits sorted. Entropy of this README decreased by 34.4 zJ (12 × kT ln 2 at 300 K). The second law remains statistical. Thank you, demon."
+          gh issue edit "$ISSUE" --repo "$GITHUB_REPOSITORY" --add-label demon
+          gh issue close "$ISSUE" --repo "$GITHUB_REPOSITORY"
