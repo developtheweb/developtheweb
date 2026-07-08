@@ -1,0 +1,37 @@
+name: Nightly Telemetry
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: demon-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh feed, stats, featured cards, entropy field
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 engine/nightly.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898470+github-actions[bot]@users.noreply.github.com"
+          git add README.md state/demon.json assets/entropy.svg
+          git commit -m "chore: nightly telemetry refresh"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
