@@ -1,191 +1,120 @@
 <div align="center">
 
-  <!-- Animated Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,15,16,17,18,19&height=100&section=header&fontSize=0" width="100%" />
+# Reversing the irreversible
 
-  <!-- Logo with Animation -->
-  <img src="https://stevenmilanese.com/StevenMilanese-full-logo.png" alt="Steven Milanese" width="400"/>
+*Rev. Steven Milanese — the second law is statistical, not sacred. The demon pays its bills in bits.*
 
-  <!-- Animated Typing Header -->
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=06B6D4&center=true&vCenter=true&width=600&lines=Steven+Milanese;Autodidactic+Polymath;Systems+Alchemist;Physicist+%26+Reverend;Arch+Linux+User+BTW)](https://git.io/typing-svg)
-
-  <!-- Profile Views Counter -->
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=developtheweb&color=0891b2&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
-
-  <!-- Social Badges with Custom Colors -->
-  <br><br>
-  [![Website](https://img.shields.io/badge/Website-stevenmilanese.com-1F2937?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=374151&color=06B6D4)](https://stevenmilanese.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=084C91&color=0A66C2)](https://www.linkedin.com/in/stevenmilanese/)
-  [![Blog](https://img.shields.io/badge/Blog-Strange_Quarks-14B8A6?style=for-the-badge&logo=hashnode&logoColor=white&labelColor=047857&color=14B8A6)](https://stevenmilanese.com/strange-quarks)
-  <br>
-  [![X](https://img.shields.io/badge/X-@developtheweb-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=171717&color=000000)](https://x.com/developtheweb)
-  [![Telegram](https://img.shields.io/badge/Telegram-@CodeAndVerse-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0088CC&color=26A5E4)](https://t.me/CodeAndVerse)
-  [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=C23B2C&color=EA4335)](mailto:dev@level.host)
-  <br>
-  [![ORCID](https://img.shields.io/badge/ORCID-Research_Profile-A6CE39?style=for-the-badge&logo=orcid&logoColor=white&labelColor=87A330&color=A6CE39)](https://orcid.org/0009-0008-0442-208X)
-  [![OSF](https://img.shields.io/badge/OSF-Open_Science-2077B4?style=for-the-badge&logo=osf&logoColor=white&labelColor=1A5F8F&color=2077B4)](https://osf.io/3tsd4/)
 </div>
 
-<!-- Animated Banner -->
 <div align="center">
-  <img src="https://stevenmilanese.com/StevenMilanese-hero-stars.webp" alt="Hero Banner" width="100%"/>
+  <img src="assets/entropy.svg" width="100%" alt="Entropy-reversal field: particles converging from chaos into a (2,5) torus-knot lattice"/>
+
+  [⚡ Be the demon — sort 12 bits](https://github.com/developtheweb/developtheweb/issues/new?title=demon%3A+sort+12+bits&body=One+tap.+Submit+to+sort.)
+
+  <sub>Each click opens a one-tap issue; an Action sorts the field, recommits the SVG, closes the issue. This README's state is community-lowered entropy.</sub>
 </div>
 
-<!-- Quote Section -->
-<div align="center">
-  <br>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Transforming%20complexity%20into%20elegance%2C%20one%20algorithm%20at%20a%20time.&author=Steven%20Milanese" alt="Quote"/>
-  <br>
-</div>
+## About the Reverend
 
-## 🎯 About Me
-
-```python
-class StevenMilanese:
-    def __init__(self):
-        self.title = "Autodidactic Polymath | Systems Alchemist"
-        self.location = "🌍 Earth"
-        self.os = "Arch Linux BTW 🐧"
-        self.current_focus = ["AI Architecture", "Quantum Computing", "WebGL", "Spiritual Tech"]
-        self.philosophy = "Bridge technical excellence with human experience"
-
-    def transform_challenges(self, problem):
-        return f"✨ Inspired solution for {problem}"
+```
+Reverend ≔ Physicist ⊗ Minister ⊗ Systems_Alchemist
+domain    : ℝ³·¹ ⊗ CY₃(χ = ±6)
+axiom     : complexity ⟼ elegance
+method    : ∀ p ∈ Inconceivable — solve(p) ∨ pose(better_p)
+runtime   : Arch Linux, btw
 ```
 
-I transform complex challenges into inspired technological solutions. By seamlessly integrating Artificial Intelligence with cutting-edge development practices, I create systems that push the boundaries of what's possible. My expertise spans multiple domains including theoretical physics, mathematics, AI systems architecture, and spiritual technology.
+*Written in MPL — the author's own language. Ordained minister, autodidactic polymath, natural philosopher. The ministry and the physics are the same inquiry conducted at different energy scales.*
 
-## 🚀 Tech Arsenal
+## The mission — goals inconceivable by design
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Reverse the irreversible**
+
+Maxwell's demon on GitHub's own infrastructure, funded in Landauer's currency. *(running above)*
+
+</td>
+<td width="50%" valign="top">
+
+**Derive the three generations**
+
+Calabi–Yau compactifications, χ = ±6. [ORCID](https://orcid.org/0009-0008-0442-208X) · [OSF](https://osf.io/3tsd4/) · [companion essays](https://stevenmilanese.com/blog/tag/calabi-yau-manifolds)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Cognitive universality**
+
+[MPL](https://github.com/developtheweb/mpl): if you can write the equation, you can run it.
+
+</td>
+<td width="50%" valign="top">
+
+**Planetary intelligence**
+
+Earth as information processor, argued in full on [Strange Quarks](https://stevenmilanese.com/blog/planetary-intelligence-earth-as-information-processor).
+
+</td>
+</tr>
+</table>
+
+<!-- STATS:START -->
 <div align="center">
 
-### Languages & Frameworks
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-
-### Operating System & Environment
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![BTW I Use Arch](https://img.shields.io/badge/BTW_I_Use_Arch-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
-![Terminal](https://img.shields.io/badge/Terminal-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
-
-### Tools & Technologies
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
-![AI/ML](https://img.shields.io/badge/AI/ML-FF6F61?style=for-the-badge&logo=tensorflow&logoColor=white)
+`10¹⁰⁶ yr until heat death — the deadline` · `2.9 zJ of order per bit sorted (kT ln 2, 300 K)` · `★ 27 stars across 14 public repos`
 
 </div>
+<!-- STATS:END -->
 
-## 📊 GitHub Analytics
+## Beneath the physics — the verified inventory
 
+<!-- FEATURED:START -->
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=developtheweb&show_icons=true&count_private=true&hide_border=true&title_color=06B6D4&icon_color=06B6D4&text_color=c9d1d9&bg_color=0d1117" alt="Steven Milanese github stats" />
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=developtheweb&layout=compact&hide_border=true&title_color=06B6D4&text_color=c9d1d9&bg_color=0d1117" />
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center"><a href="https://github.com/developtheweb/anthropic-certs">anthropic-certs</a></h3>
+<p align="center"><code>★ 11</code></p>
+<p align="center">Verified Anthropic certifications — Claude, API, Claude Code CLI, MCP.</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center"><a href="https://github.com/developtheweb/slTrain">slTrain</a></h3>
+<p align="center"><code>★ 4</code></p>
+<p align="center">A steam locomotive for your terminal, smoke trail included.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3 align="center"><a href="https://github.com/developtheweb/meowchi-releases">meowchi-releases</a></h3>
+<p align="center"><code>★ 4</code></p>
+<p align="center">A desktop pet that evolves when you actually get work done.</p>
+</td>
+<td width="50%" valign="top">
+<h3 align="center"><a href="https://github.com/developtheweb/mpl">mpl</a></h3>
+<p align="center"><code>★ 2</code></p>
+<p align="center">Mathematics Programming Language — write the equation, run the equation.</p>
+</td>
+</tr>
+</table>
 </div>
+<!-- FEATURED:END -->
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=developtheweb&custom_title=Contribution%20Graph&bg_color=0d1117&color=06B6D4&line=06B6D4&point=06B6D4&area_color=1a1b27&title_color=06B6D4&area=true" alt="Steven Milanese's Activity Graph" width="100%"/>
-</div>
+## Latest from Strange Quarks
 
-## 🎨 Featured Projects
+<!-- FEED:START -->
+| Article | |
+|:---|---:|
+| [Mathematical Programming Language: A Vision for Cognitive Universality Through Unicode-Based Syntax](https://stevenmilanese.com/blog/mathematical-programming-language-a-vision-for-cognitive-universality-through-unicode-based-syntax) | Jul 28, 2025 · 17 min read |
+| [The Ultimate Easter Egg Hunt: An Online Odyssey for the Brilliant Minds](https://stevenmilanese.com/blog/gunter) | Jul 21, 2025 · 45 min read |
+| [The Architect of Acquiescence](https://stevenmilanese.com/blog/the-architect-of-acquiescence) | Jun 25, 2025 · 11 min read |
+| [Planetary Intelligence: Earth as Information Processor](https://stevenmilanese.com/blog/planetary-intelligence-earth-as-information-processor) | Jun 18, 2025 · 49 min read |
+<!-- FEED:END -->
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center">stevenmilanese.com</h3>
-        <div align="center">
-          <a href="https://stevenmilanese.com" target="_blank"><img src="https://stevenmilanese.com/projects/calabi-yau.webp" width="100%" alt="Portfolio"/></a>
-          <br><br>
-          <p><strong>Immersive Portfolio Experience</strong></p>
-          <p>Three.js visualizations • Server-side rendering • Headless CMS</p>
-          <p>
-            <a href="https://stevenmilanese.com" target="_blank"><img src="https://img.shields.io/badge/Visit-Live_Site-06B6D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Live Site"/></a>
-          </p>
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">Emergence Intelligence</h3>
-        <div align="center">
-          <a href="https://stevenmilanese.com/#projects" target="_blank"><img src="https://stevenmilanese.com/projects/emergence-intelligence.webp" width="100%" alt="Emergence Intelligence"/></a>
-          <br><br>
-          <p><strong>Advanced AI System</strong></p>
-          <p>Cognitive architecture • Semantic processing • Episodic memory</p>
-          <p>
-            <a href="https://stevenmilanese.com/#projects" target="_blank"><img src="https://img.shields.io/badge/Learn-More-14B8A6?style=for-the-badge&logo=openai&logoColor=white" alt="Learn More"/></a>
-          </p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## 📚 Latest Articles
-
-<div align="center">
-
-| 📝 Article | 🏷️ Topics |
-|:---|:---|
-| [The Intersection of Physics and AI](https://stevenmilanese.com/strange-quarks) | `Quantum Computing` `Machine Learning` `Physics` |
-| [Building Resilient Distributed Systems](https://stevenmilanese.com/strange-quarks) | `Architecture` `Scalability` `DevOps` |
-| [WebGL Performance Optimization Techniques](https://stevenmilanese.com/strange-quarks) | `WebGL` `Three.js` `Performance` |
-| [Quantum Computing: Practical Applications](https://stevenmilanese.com/strange-quarks) | `Quantum` `Algorithms` `Future Tech` |
-
-</div>
-
-## 🔭 Current Focus
-
-<div align="center">
-
-```mermaid
-graph LR
-    A[Advanced 3D Visualizations] --> B{Current Projects}
-    C[Serverless Architecture] --> B
-    D[Quantum Computing + AI] --> B
-    E[Spiritual Technology] --> B
-    B --> F[🚀 Innovation]
-```
-
-</div>
-
-## 🏆 Achievements & Certifications
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Physics-Research_Publications-FF6B6B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/AI/ML-Advanced_Practitioner-4ECDC4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Architecture-Systems_Design-95E1D3?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Leadership-Technical_Strategy-F38181?style=for-the-badge"/>
-  <br>
-  <img src="https://img.shields.io/badge/🐧_Arch_Linux-Full_Time_BTW-1793D1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/pacman-Package_Manager-1793D1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/AUR-Helper_yay-1793D1?style=for-the-badge"/>
-</div>
-
-
-## 💫 Connect & Collaborate
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=435&lines=Let's+build+something+amazing!;Open+to+collaborations;Reach+out+anytime!" alt="Typing SVG" />
-
-  <br><br>
-
-  [![🌐 Website](https://img.shields.io/badge/🌐_Website-stevenmilanese.com-06B6D4?style=for-the-badge)](https://stevenmilanese.com)
-  [![💼 LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/stevenmilanese/)
-  [![📧 Email](https://img.shields.io/badge/📧_Email-Contact-EA4335?style=for-the-badge)](mailto:dev@level.host)
-  [![📝 Blog](https://img.shields.io/badge/📝_Blog-Read-14B8A6?style=for-the-badge)](https://stevenmilanese.com/strange-quarks)
-</div>
-
-<!-- Snake Animation -->
 <div align="center">
   <br>
   <picture>
@@ -197,13 +126,17 @@ graph LR
 
 ---
 
-<div align="center">
-  <img src="https://stevenmilanese.com/StevenMilanese-ghost-logo.png" alt="Steven Milanese Logo" width="80"/>
-  <br>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=718096&center=true&vCenter=true&width=435&lines=Systems+Alchemist;Transforming+Complexity+into+Elegance" alt="Typing SVG" />
-  <br>
-  <sub>⚡ Powered by curiosity, driven by innovation</sub>
-</div>
+<table width="100%">
+<tr>
+<td align="left">
 
-<!-- Wave Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,15,16,17,18,19&height=80&section=footer&fontSize=0" width="100%" />
+*Founder, [MoonFactory](https://moonfactory.dev) — development and consulting.*
+
+</td>
+<td align="right">
+
+[stevenmilanese.com](https://stevenmilanese.com) · [Strange Quarks](https://stevenmilanese.com/blog) · [X](https://x.com/developtheweb) · [LinkedIn](https://www.linkedin.com/in/stevenmilanese/) · [ORCID](https://orcid.org/0009-0008-0442-208X) · [OSF](https://osf.io/3tsd4/) · [rev@moonfactory.dev](mailto:rev@moonfactory.dev)
+
+</td>
+</tr>
+</table>
