@@ -27,8 +27,14 @@ README = os.path.join(ROOT, "README.md")
 STATE_PATH = os.path.join(ROOT, "state", "demon.json")
 
 SITE = "https://stevenmilanese.com"
-FEED_URL = f"{SITE}/feed.xml"
+# The real feed. /feed.xml was a guess that 404'd for weeks while the HTML
+# fallback silently matched nothing, so the FEED table quietly froze; it now
+# also 301s here, but point at the canonical URL rather than lean on that.
+FEED_URL = f"{SITE}/rss.xml"
 BLOG_URL = f"{SITE}/blog"
+# The site publishes read-time in its own namespace — valid for strict parsers,
+# unambiguous for this one.
+MANUSCRIPT_NS = "https://stevenmilanese.com/ns/manuscript"
 
 FEATURED_REPOS = [
     ("anthropic-certs", "Verified Anthropic certifications — Claude, API, Claude Code CLI, MCP."),
@@ -63,6 +69,11 @@ def replace_section(text, marker, body):
 
 
 def articles_from_rss():
+    """Primary source: the site's real feed.
+
+    The feed carries read-time in the site's own namespace, so the meta column
+    comes from the publisher rather than being scraped back out of a page.
+    """
     root = ET.fromstring(fetch(FEED_URL))
     items = []
     for item in root.iter("item"):
@@ -74,47 +85,70 @@ def articles_from_rss():
             date = datetime.datetime.strptime(pub[:16].strip(), "%a, %d %b %Y")
         except ValueError:
             pass
+        mins = (item.findtext(f"{{{MANUSCRIPT_NS}}}readingMinutes") or "").strip()
+        meta = f"{mins} min read" if mins.isdigit() else ""
         if title and link:
-            items.append({"title": title, "url": link, "date": date, "meta": ""})
+            items.append({"title": title, "url": link, "date": date, "meta": meta})
     return items
 
 
 def articles_from_html():
+    """Fallback: parse the blog index.
+
+    Written against the Manuscript's markup, which is regular enough not to
+    need heuristics — each entry is a `row` div holding one anchor and one
+    `meta` span:
+
+        <div class="row">
+          <a href="/blog/<slug>">Title</a>
+          <span class="meta"> JUL 28, 2025 · 19 MIN </span>
+        </div>
+
+    The previous version looked for a thumbnail `alt=` attribute and a
+    Title-Case date. The redesign has neither — no feature images on the index
+    and uppercase abbreviated months — so it matched nothing and silently
+    returned an empty list for weeks.
+    """
     page = fetch(BLOG_URL)
     skip = ("/blog/tag/", "/blog/author/")
-    anchors = [
-        m for m in re.finditer(r'<a[^>]+href="(/blog/[a-z0-9][a-z0-9-]*)"', page)
-        if not m.group(1).startswith(skip)
-    ]
-    seen, articles = set(), []
-    for idx, m in enumerate(anchors):
-        slug = m.group(1)
-        if slug in seen:
+    articles, seen = [], set()
+
+    row_re = re.compile(
+        r'<a[^>]+href="(/blog/[a-z0-9][a-z0-9-]*)"[^>]*>(.*?)</a>'
+        r'.{0,400}?<span[^>]*class="meta"[^>]*>(.*?)</span>',
+        re.S,
+    )
+    for m in row_re.finditer(page):
+        slug, raw_title, raw_meta = m.group(1), m.group(2), m.group(3)
+        if slug.startswith(skip) or slug in seen:
             continue
-        seen.add(slug)
-        stop = len(page)
-        for nxt in anchors[idx + 1:]:
-            if nxt.group(1) != slug:
-                stop = nxt.start()
+
+        title = htmllib.unescape(re.sub(r"<[^>]+>", "", raw_title)).strip()
+        meta_text = htmllib.unescape(re.sub(r"<[^>]+>", " ", raw_meta))
+        meta_text = re.sub(r"\s+", " ", meta_text).strip()
+
+        # "JUL 28, 2025" — uppercase, abbreviated month.
+        date_m = re.search(r"([A-Za-z]{3,}) (\d{1,2}), (\d{4})", meta_text)
+        if not (title and date_m):
+            continue
+        month, day, year = date_m.groups()
+        date = None
+        for fmt in ("%b %d %Y", "%B %d %Y"):
+            try:
+                date = datetime.datetime.strptime(f"{month.title()} {day} {year}", fmt)
                 break
-        window = page[m.start():stop]
-        title_m = re.search(r'alt="([^"]+)"', window)
-        stripped = re.sub(r"<[^>]+>", " ", window)
-        stripped = htmllib.unescape(re.sub(r"<!--.*?-->", "", stripped))
-        date_m = re.search(r"([A-Z][a-z]+ \d{1,2}, \d{4})", stripped)
-        mins_m = re.search(r"(\d+)\s*min", stripped)
-        views_m = re.search(r"([\d,]+)\s*views", stripped)
-        if not (title_m and date_m):
+            except ValueError:
+                continue
+        if date is None:
             continue
-        date = datetime.datetime.strptime(date_m.group(1), "%B %d, %Y")
-        meta = f"{mins_m.group(1)} min read" if mins_m else (
-            f"{views_m.group(1)} views" if views_m else ""
-        )
+
+        mins_m = re.search(r"(\d+)\s*MIN", meta_text, re.I)
+        seen.add(slug)
         articles.append({
-            "title": htmllib.unescape(title_m.group(1)),
+            "title": title,
             "url": f"{SITE}{slug}",
             "date": date,
-            "meta": meta,
+            "meta": f"{mins_m.group(1)} min read" if mins_m else "",
         })
     return articles
 
@@ -124,8 +158,9 @@ def update_feed(text):
     try:
         articles = articles_from_rss()
     except Exception as exc:
-        print(f"feed: rss unusable ({exc}); falling back to html")
+        print(f"::warning title=nightly FEED rss::rss unusable ({exc}); falling back to html")
     if not articles:
+        print("::warning title=nightly FEED fallback::rss yielded nothing; scraping /blog")
         articles = articles_from_html()
     dated = [a for a in articles if a["date"]]
     dated.sort(key=lambda a: a["date"], reverse=True)
@@ -188,22 +223,41 @@ def bump_entropy():
     )
 
 
+def warn(label, exc):
+    """Fail-safe, but never quiet.
+
+    Every section still degrades to 'leave it alone and exit 0' — a broken
+    fetch must not wedge the profile. What changed is visibility: a section
+    that stops updating now announces itself as a GitHub Actions warning
+    annotation, which surfaces in the run summary instead of scrolling past in
+    a log nobody opens. The FEED table sat frozen for 37 days precisely
+    because a silent skip and a successful run looked identical.
+    """
+    print(f"::warning title=nightly {label} skipped::{label} left untouched — {exc}")
+    print(f"{label}: left untouched ({exc})", file=sys.stderr)
+
+
 def main():
     with open(README) as fh:
         text = fh.read()
+    failures = 0
     for label, fn in (("FEED", update_feed), ("STATS", update_stats), ("FEATURED", update_featured)):
         try:
             text = fn(text)
             print(f"{label}: updated")
         except Exception as exc:
-            print(f"{label}: left untouched ({exc})")
+            failures += 1
+            warn(label, exc)
     with open(README, "w") as fh:
         fh.write(text)
     try:
         bump_entropy()
         print("ENTROPY: regenerated")
     except Exception as exc:
-        print(f"ENTROPY: left untouched ({exc})")
+        failures += 1
+        warn("ENTROPY", exc)
+    if failures:
+        print(f"::warning title=nightly incomplete::{failures} of 4 sections did not update")
 
 
 if __name__ == "__main__":
