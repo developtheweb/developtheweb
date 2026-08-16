@@ -109,7 +109,7 @@ Earth as information processor, argued in full on [Strange Quarks](https://steve
 <!-- FEED:START -->
 | Article | |
 |:---|---:|
-| [Mathematical Programming Language: A Vision for Cognitive Universality Through Unicode-Based Syntax](https://stevenmilanese.com/blog/mathematical-programming-language-a-vision-for-cognitive-universality-through-unicode-based-syntax) | Jul 28, 2025 · 17 min read |
+| [Mathematical Programming Language: A Vision for Cognitive Universality Through Unicode-Based Syntax](https://stevenmilanese.com/blog/mathematical-programming-language-a-vision-for-cognitive-universality-through-unicode-based-syntax) | Jul 28, 2025 · 19 min read |
 | [The Ultimate Easter Egg Hunt: An Online Odyssey for the Brilliant Minds](https://stevenmilanese.com/blog/gunter) | Jul 21, 2025 · 45 min read |
 | [The Architect of Acquiescence](https://stevenmilanese.com/blog/the-architect-of-acquiescence) | Jun 25, 2025 · 11 min read |
 | [Planetary Intelligence: Earth as Information Processor](https://stevenmilanese.com/blog/planetary-intelligence-earth-as-information-processor) | Jun 18, 2025 · 49 min read |
