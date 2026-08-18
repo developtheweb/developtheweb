@@ -66,7 +66,7 @@ Earth as information processor, argued in full on [Strange Quarks](https://steve
 <!-- STATS:START -->
 <div align="center">
 
-`10¹⁰⁶ yr until heat death — the deadline` · `2.9 zJ of order per bit sorted (kT ln 2, 300 K)` · `★ 27 stars across 14 public repos`
+`10¹⁰⁶ yr until heat death — the deadline` · `2.9 zJ of order per bit sorted (kT ln 2, 300 K)` · `★ 28 stars across 14 public repos`
 
 </div>
 <!-- STATS:END -->
@@ -96,7 +96,7 @@ Earth as information processor, argued in full on [Strange Quarks](https://steve
 </td>
 <td width="50%" valign="top">
 <h3 align="center"><a href="https://github.com/developtheweb/mpl">mpl</a></h3>
-<p align="center"><code>★ 2</code></p>
+<p align="center"><code>★ 3</code></p>
 <p align="center">Mathematics Programming Language — write the equation, run the equation.</p>
 </td>
 </tr>
