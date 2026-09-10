@@ -66,7 +66,7 @@ Earth as information processor, argued in full on [Strange Quarks](https://steve
 <!-- STATS:START -->
 <div align="center">
 
-`10¹⁰⁶ yr until heat death — the deadline` · `2.9 zJ of order per bit sorted (kT ln 2, 300 K)` · `★ 28 stars across 14 public repos`
+`10¹⁰⁶ yr until heat death — the deadline` · `2.9 zJ of order per bit sorted (kT ln 2, 300 K)` · `★ 29 stars across 14 public repos`
 
 </div>
 <!-- STATS:END -->
@@ -84,7 +84,7 @@ Earth as information processor, argued in full on [Strange Quarks](https://steve
 </td>
 <td width="50%" valign="top">
 <h3 align="center"><a href="https://github.com/developtheweb/slTrain">slTrain</a></h3>
-<p align="center"><code>★ 4</code></p>
+<p align="center"><code>★ 5</code></p>
 <p align="center">A steam locomotive for your terminal, smoke trail included.</p>
 </td>
 </tr>
