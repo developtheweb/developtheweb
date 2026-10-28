@@ -66,7 +66,7 @@ Earth as information processor, argued in full on [Strange Quarks](https://steve
 <!-- STATS:START -->
 <div align="center">
 
-`10¹⁰⁶ yr until heat death — the deadline` · `2.9 zJ of order per bit sorted (kT ln 2, 300 K)` · `★ 30 stars across 14 public repos`
+`10¹⁰⁶ yr until heat death — the deadline` · `2.9 zJ of order per bit sorted (kT ln 2, 300 K)` · `★ 31 stars across 14 public repos`
 
 </div>
 <!-- STATS:END -->
@@ -79,7 +79,7 @@ Earth as information processor, argued in full on [Strange Quarks](https://steve
 <tr>
 <td width="50%" valign="top">
 <h3 align="center"><a href="https://github.com/developtheweb/anthropic-certs">anthropic-certs</a></h3>
-<p align="center"><code>★ 11</code></p>
+<p align="center"><code>★ 12</code></p>
 <p align="center">Verified Anthropic certifications — Claude, API, Claude Code CLI, MCP.</p>
 </td>
 <td width="50%" valign="top">
